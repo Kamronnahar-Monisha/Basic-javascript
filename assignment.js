@@ -56,7 +56,7 @@ function hotelCost( numberOfDays ){                          //This function cal
 
 function megaFriend( nameOfFriends ){                        //This funtion find the biggest name among all friends name
     if(!Array.isArray(nameOfFriends)){
-        return "You should give an array as input" ;//if input is not a number.
+        return "You should give an array as input" ;//if input is not a array.
     }                              
     if(nameOfFriends.length==0){
         return "The array of Friends name is empty" ;//if array is empty
@@ -72,3 +72,8 @@ function megaFriend( nameOfFriends ){                        //This funtion find
     }
     return bigName ;
 }
+
+
+
+
+
